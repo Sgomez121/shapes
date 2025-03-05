@@ -1,0 +1,8 @@
+public class ShapeMetricCalculator {
+    static double calculateRectangleArea(Rectangle rectangle){
+        return rectangle.length * rectangle.width;
+    }
+    static double calculateCircleArea(Circle circle){
+        return circle.radius * circle.radius;
+    }
+}
